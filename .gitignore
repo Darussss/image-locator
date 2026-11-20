@@ -1,0 +1,35 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---------- PyInstaller 构建产物 ----------
+build/
+dist/
+dist_*/
+*.spec
+局部图片定位工具/
+*.zip
+
+# ---------- 运行时产物 ----------
+*.log
+image_locator_error.log
+*_标注_*.jpg
+*_标注_*.png
+
+# ---------- 用户素材（请勿提交他人地图/图纸） ----------
+huaiyanggudao.jpg
+huaiyanggudao.jpeg
+huaiyanggudao.png
+huaiyanggudao.bmp
+assets/private/
+
+# ---------- 编辑器 / 系统 ----------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,8 @@
+# 运行依赖（已在 Windows 10/11 + Python 3.11 上验证）
+# opencv 4.11 / numpy 1.26.4 / pillow 10.4 为实测组合，如需复现请按注释锁定版本
+
+opencv-python>=4.8.0,<5.0        # 模板匹配核心；注意 opencv-python 5.x 未经本项目验证
+numpy>=1.24.0,<3.0
+pillow>=9.4.0                    # 读图 / 截图 / 标注绘制
+
+# tkinter 为 Python 标准库组件，Windows 官方安装包默认自带，无需 pip 安装
